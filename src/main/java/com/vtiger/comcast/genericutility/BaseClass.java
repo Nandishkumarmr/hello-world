@@ -33,6 +33,7 @@ public javautility java = new javautility();
 	edriver = driver;
 		wLib.waitUntilPageLoad(driver);
 		driver.manage().window().maximize();
+		System.out.println("New");
 	}
 	
 @BeforeMethod

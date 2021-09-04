@@ -2,7 +2,6 @@ package com.vtiger.comcast.genericutility;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
@@ -14,12 +13,13 @@ import com.vtiger.comcast.loginrepository.loginpage;
 import com.vtiger.comcast.productrepository.homepage;
 
 public class BaseClass {
-public  WebDriver driver;
-public static  WebDriver edriver;
-public javautility java = new javautility();
-		public WebDriverUtility wLib = new WebDriverUtility();
-		public FileUTiltiy fLib = new FileUTiltiy();
-		public ExcelUtility eLib = new ExcelUtility();
+	public WebDriver driver;
+	public static WebDriver edriver;
+
+	public javautility jlib=new javautility();
+	public WebDriverUtility wLib=new WebDriverUtility();
+	public FileUTiltiy fLib=new FileUTiltiy();
+	public ExcelUtility eLib=new ExcelUtility();
 	
 	@BeforeSuite
 	public void configBS() {
@@ -31,9 +31,9 @@ public javautility java = new javautility();
 		System.out.println("=============Launch the Browser=======");
 	driver=new ChromeDriver();
 	edriver = driver;
-		wLib.waitUntilPageLoad(driver);
+	wLib.waitUntilPageLoad(driver);
 		driver.manage().window().maximize();
-		System.out.println("New");
+		
 	}
 	
 @BeforeMethod

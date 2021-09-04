@@ -3,11 +3,28 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="productpage.createnewproductstock">
+      <class name="productpage.createnewproductstocktest">
         <methods>
-          <include name="createnewproductstocktest"/>
+          <include name="configBS"/>
+          <include name="configBC"/>
+          <include name="configAS"/>
+          <include name="configAC"/>
+          <include name="configAM"/>
+          <include name="configBM"/>
+          <include name="createnewproducttest"/>
         </methods>
-      </class> <!-- productpage.createnewproductstock -->
+      </class> <!-- productpage.createnewproductstocktest -->
+      <class name="productpage.createproductpagetest">
+        <methods>
+          <include name="configBS"/>
+          <include name="configBC"/>
+          <include name="createpagetest"/>
+          <include name="configAS"/>
+          <include name="configAC"/>
+          <include name="configAM"/>
+          <include name="configBM"/>
+        </methods>
+      </class> <!-- productpage.createproductpagetest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -36,12 +36,16 @@
 </dependency>
 
 <dependency>
+
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
     <version>7.3.0</version>
 
-
 </dependency>
+
+
+
+
 <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
 <dependency>
     <groupId>mysql</groupId>
@@ -63,6 +67,7 @@
 					<suiteXmlFiles>
 						<!--TestNG suite XML files -->
 						<suiteXmlFile>testng.xml</suiteXmlFile>
+						<suiteXmlFile>testng1.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>

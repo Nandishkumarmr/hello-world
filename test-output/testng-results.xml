@@ -1,41 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="4" total="7" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="34828" started-at="2021-08-27T16:16:14 IST" finished-at="2021-08-27T16:16:49 IST">
+  <suite name="product page" duration-ms="102705" started-at="2021-09-04T10:19:08 IST" finished-at="2021-09-04T10:20:50 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="34828" started-at="2021-08-27T16:16:14 IST" finished-at="2021-08-27T16:16:49 IST">
-      <class name="productpage.createproductpriceinfo">
-        <test-method status="PASS" signature="configBS()[pri:0, instance:productpage.createproductpriceinfo@1af5db5]" name="configBS" is-config="true" duration-ms="20" started-at="2021-08-27T16:16:14 IST" finished-at="2021-08-27T16:16:14 IST">
+    <test name="Test" duration-ms="102705" started-at="2021-09-04T10:19:08 IST" finished-at="2021-09-04T10:20:50 IST">
+      <class name="productpage.createproductpriceinfotest">
+        <test-method status="PASS" signature="configBS()[pri:0, instance:productpage.createproductpriceinfotest@121c9d6]" name="configBS" is-config="true" duration-ms="21" started-at="2021-09-04T10:19:08 IST" finished-at="2021-09-04T10:19:08 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBS -->
-        <test-method status="PASS" signature="configBC()[pri:0, instance:productpage.createproductpriceinfo@1af5db5]" name="configBC" is-config="true" duration-ms="5706" started-at="2021-08-27T16:16:14 IST" finished-at="2021-08-27T16:16:20 IST">
+        <test-method status="PASS" signature="configBC()[pri:0, instance:productpage.createproductpriceinfotest@121c9d6]" name="configBC" is-config="true" duration-ms="7620" started-at="2021-09-04T10:19:08 IST" finished-at="2021-09-04T10:19:15 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBC -->
-        <test-method status="PASS" signature="configBM()[pri:0, instance:productpage.createproductpriceinfo@1af5db5]" name="configBM" is-config="true" duration-ms="11654" started-at="2021-08-27T16:16:20 IST" finished-at="2021-08-27T16:16:31 IST">
+        <test-method status="PASS" signature="configBM()[pri:0, instance:productpage.createproductpriceinfotest@121c9d6]" name="configBM" is-config="true" duration-ms="11764" started-at="2021-09-04T10:19:15 IST" finished-at="2021-09-04T10:19:27 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method status="PASS" signature="createproductpriceinfotest()[pri:0, instance:productpage.createproductpriceinfo@1af5db5]" name="createproductpriceinfotest" duration-ms="16490" started-at="2021-08-27T16:16:31 IST" finished-at="2021-08-27T16:16:48 IST">
+        <test-method status="PASS" signature="createpriceinfotest()[pri:0, instance:productpage.createproductpriceinfotest@121c9d6]" name="createpriceinfotest" duration-ms="15047" started-at="2021-09-04T10:19:27 IST" finished-at="2021-09-04T10:19:42 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createproductpriceinfotest -->
-        <test-method status="PASS" signature="configAM()[pri:0, instance:productpage.createproductpriceinfo@1af5db5]" name="configAM" is-config="true" duration-ms="0" started-at="2021-08-27T16:16:48 IST" finished-at="2021-08-27T16:16:48 IST">
+        </test-method> <!-- createpriceinfotest -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:productpage.createproductpriceinfotest@121c9d6]" name="configAM" is-config="true" duration-ms="1" started-at="2021-09-04T10:19:42 IST" finished-at="2021-09-04T10:19:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAM -->
-        <test-method status="PASS" signature="configAC()[pri:0, instance:productpage.createproductpriceinfo@1af5db5]" name="configAC" is-config="true" duration-ms="875" started-at="2021-08-27T16:16:48 IST" finished-at="2021-08-27T16:16:49 IST">
+        <test-method status="PASS" signature="configAC()[pri:0, instance:productpage.createproductpriceinfotest@121c9d6]" name="configAC" is-config="true" duration-ms="900" started-at="2021-09-04T10:19:42 IST" finished-at="2021-09-04T10:19:43 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAC -->
-        <test-method status="PASS" signature="configAS()[pri:0, instance:productpage.createproductpriceinfo@1af5db5]" name="configAS" is-config="true" duration-ms="0" started-at="2021-08-27T16:16:49 IST" finished-at="2021-08-27T16:16:49 IST">
+        <test-method status="PASS" signature="configAS()[pri:0, instance:productpage.createproductpriceinfotest@121c9d6]" name="configAS" is-config="true" duration-ms="0" started-at="2021-09-04T10:20:51 IST" finished-at="2021-09-04T10:20:51 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAS -->
-      </class> <!-- productpage.createproductpriceinfo -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- productpage.createproductpriceinfotest -->
+      <class name="productpage.createproductpagetest">
+        <test-method status="PASS" signature="configBC()[pri:0, instance:productpage.createproductpagetest@720b71]" name="configBC" is-config="true" duration-ms="5674" started-at="2021-09-04T10:20:16 IST" finished-at="2021-09-04T10:20:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:productpage.createproductpagetest@720b71]" name="configBM" is-config="true" duration-ms="11025" started-at="2021-09-04T10:20:22 IST" finished-at="2021-09-04T10:20:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="createpagetest()[pri:0, instance:productpage.createproductpagetest@720b71]" name="createpagetest" duration-ms="16763" started-at="2021-09-04T10:20:33 IST" finished-at="2021-09-04T10:20:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createpagetest -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:productpage.createproductpagetest@720b71]" name="configAM" is-config="true" duration-ms="1" started-at="2021-09-04T10:20:50 IST" finished-at="2021-09-04T10:20:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:productpage.createproductpagetest@720b71]" name="configAC" is-config="true" duration-ms="874" started-at="2021-09-04T10:20:50 IST" finished-at="2021-09-04T10:20:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- productpage.createproductpagetest -->
+      <class name="productpage.createnewproductstocktest">
+        <test-method status="PASS" signature="configBC()[pri:0, instance:productpage.createnewproductstocktest@1758f2a]" name="configBC" is-config="true" duration-ms="7933" started-at="2021-09-04T10:19:43 IST" finished-at="2021-09-04T10:19:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:productpage.createnewproductstocktest@1758f2a]" name="configBM" is-config="true" duration-ms="12099" started-at="2021-09-04T10:19:51 IST" finished-at="2021-09-04T10:20:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="createnewproducttest()[pri:0, instance:productpage.createnewproductstocktest@1758f2a]" name="createnewproducttest" duration-ms="11935" started-at="2021-09-04T10:20:03 IST" finished-at="2021-09-04T10:20:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createnewproducttest -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:productpage.createnewproductstocktest@1758f2a]" name="configAM" is-config="true" duration-ms="1" started-at="2021-09-04T10:20:15 IST" finished-at="2021-09-04T10:20:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:productpage.createnewproductstocktest@1758f2a]" name="configAC" is-config="true" duration-ms="965" started-at="2021-09-04T10:20:15 IST" finished-at="2021-09-04T10:20:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- productpage.createnewproductstocktest -->
+    </test> <!-- Test -->
+  </suite> <!-- product page -->
 </testng-results>

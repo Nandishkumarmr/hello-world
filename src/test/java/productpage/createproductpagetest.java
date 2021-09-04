@@ -28,7 +28,7 @@ public class createproductpagetest extends BaseClass {
 		ExcelUtility exut = new ExcelUtility();
 		String productname = exut.getDataFromExcel("sheet1", 1,1);
 		newproduct.getProductname().sendKeys(productname);
-		String todaydate = java.getsystemdateYYYY_MM_DD();
+		String todaydate = jlib.getsystemdateYYYY_MM_DD();
 		System.out.println(todaydate);
 		newproduct.getStartdatepopup().sendKeys(todaydate);
 		String Partno = exut.getDataFromExcel("sheet1", 2,1);

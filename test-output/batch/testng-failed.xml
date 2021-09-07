@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [batch]">
+  <test thread-count="3" name="Test(failed)">
+    <classes>
+      <class name="productpage.createnewproductstocktest">
+        <methods>
+          <include name="configBS"/>
+          <include name="configBC"/>
+          <include name="configAS"/>
+          <include name="configAC"/>
+          <include name="configAM"/>
+          <include name="configBM"/>
+          <include name="createnewproducttest"/>
+        </methods>
+      </class> <!-- productpage.createnewproductstocktest -->
+      <class name="productpage.createproductpagetest">
+        <methods>
+          <include name="configBS"/>
+          <include name="configBC"/>
+          <include name="createpagetest"/>
+          <include name="configAS"/>
+          <include name="configAC"/>
+          <include name="configAM"/>
+          <include name="configBM"/>
+        </methods>
+      </class> <!-- productpage.createproductpagetest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [batch] -->

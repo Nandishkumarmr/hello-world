@@ -12,6 +12,7 @@ public class loginpage {
 	}
 	@FindBy(name="user_name")
 	private WebElement username;
+	
 	@FindBy(name="user_password")
 	private WebElement userpwd;
 	@FindBy(id="submitButton")
